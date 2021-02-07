@@ -1,0 +1,18 @@
+.app__main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__header {
+    align-items: center;
+    background-color: $ravn-black;
+    color: white;
+    display: flex;
+    height: 40px;
+    width: 100vw;
+}
+
+.app__header h4 {
+    margin-left: 30px;
+}
+
