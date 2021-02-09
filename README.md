@@ -34,3 +34,5 @@ Web application that shows information of StarWars characters. Using React and A
 +Failed to load data!
 ![Alt Text](Screen2.gif)
 
+## Addition Information
+The StarWars API information is incomplete. The gaps were filled with assumptions.
