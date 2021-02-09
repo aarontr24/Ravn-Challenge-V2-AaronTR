@@ -13,8 +13,8 @@
 .items__entry {
     display: flex;
     justify-content: space-between;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: $margin-default;
+    padding-bottom: $margin-default;
     border-bottom: solid 1px $gray-light;
 
 }
@@ -27,19 +27,19 @@
 }
 
 .items__entry-nametype h2 {
-    font-size: 12pt;
+    font-size: $font-size-title-item;
     color: rgba(0, 0, 0, 1);
 }
 
 .items__entry-nametype p {
-    font-size: 10pt;
+    font-size: $font-size-especie-item;
     color: rgba(0, 0, 0, 0.5);
 }
 
 .items__entry-arrow {
     display: flex;
     align-items: center;
-    padding-left: 16px;
+    padding-left: $margin-default;
     padding-right: 20px;
 }
 
@@ -47,10 +47,11 @@
     color: $text-dark;
     display: flex;
     justify-content: center;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: $margin-default;
+    padding-bottom: $margin-default;
 }
 .items__entries-loading h1 {
     font-size: 17px;
     margin-left: 8px;
+    color: $text-light;
 }

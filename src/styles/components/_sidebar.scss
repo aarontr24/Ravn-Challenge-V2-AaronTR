@@ -4,7 +4,7 @@
     height: 100vh;
     width: 350px;
     border-right: solid 1px $gray-light;
-    padding-left: 16px;
+    padding-left: $margin-default;
 }
 
 .sidebar__failed {
@@ -12,6 +12,6 @@
     color: $text-emphasis;
     display: flex;
     justify-content: center;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: $margin-default;
+    padding-bottom: $margin-default;
 }
